@@ -16,7 +16,7 @@ for (const policy of encryptionPolicies) {
     invalid++;
   }
 
-  if (invalid === 42) {
+  if (invalid === 13) {
     result = key;
     break;
   }
